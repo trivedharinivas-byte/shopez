@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+      <defs>
+        <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+        </linearGradient>
+        <radialGradient id="ring" cx="50%" cy="50%" r="50%">
+          <stop offset="70%" stop-color="#020617"/>
+          <stop offset="100%" stop-color="#06b6d4"/>
+        </radialGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#g7)"/>
+      <!-- Speaker cylinder -->
+      <rect x="120" y="90" width="160" height="220" rx="80" fill="#0f172a" stroke="#ffffff" stroke-width="4"/>
+      <circle cx="200" cy="140" r="40" fill="url(#ring)" stroke="#334155" stroke-width="2"/>
+      <!-- Soundwave lines -->
+      <path d="M 150 220 Q 175 210 200 220 T 250 220" fill="none" stroke="#10b981" stroke-width="3"/>
+      <path d="M 160 240 Q 180 230 200 240 T 240 240" fill="none" stroke="#10b981" stroke-width="2"/>
+      <text x="50%" y="71%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Orbita</text>
+    </svg>
