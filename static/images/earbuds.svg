@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+      <defs>
+        <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#g6)"/>
+      <!-- Case -->
+      <rect x="130" y="130" width="140" height="150" rx="35" fill="#0f172a" stroke="#ffffff" stroke-width="4"/>
+      <line x1="130" y1="180" x2="270" y2="180" stroke="#334155" stroke-width="3"/>
+      <!-- Glowing dot -->
+      <circle cx="200" cy="215" r="4" fill="#14b8a6"/>
+      <!-- Earbud elements on sides -->
+      <rect x="90" y="90" width="25" height="40" rx="10" fill="#ffffff" transform="rotate(-15, 90, 90)"/>
+      <rect x="285" y="90" width="25" height="40" rx="10" fill="#ffffff" transform="rotate(15, 285, 90)"/>
+      <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">SonicBuds</text>
+    </svg>
