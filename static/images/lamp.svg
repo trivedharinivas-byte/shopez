@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+      <defs>
+        <linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+        </linearGradient>
+        <filter id="lightglow">
+          <feGaussianBlur stdDeviation="30" result="coloredBlur"/>
+          <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#g8)"/>
+      <!-- Glowing light back -->
+      <circle cx="200" cy="180" r="80" fill="#fef08a" opacity="0.6" filter="url(#lightglow)"/>
+      <!-- Lamp base -->
+      <rect x="150" y="300" width="100" height="15" rx="5" fill="#1e293b" stroke="#ffffff" stroke-width="2"/>
+      <!-- Pole -->
+      <path d="M 200 300 L 200 170" fill="none" stroke="#475569" stroke-width="8"/>
+      <!-- Bulb cover -->
+      <path d="M 160 170 L 240 170 L 220 120 L 180 120 Z" fill="#0f172a" stroke="#ffffff" stroke-width="3"/>
+      <text x="50%" y="38%" dominant-baseline="middle" text-anchor="middle" fill="#0f172a" font-family="sans-serif" font-size="14" font-weight="bold">AURA</text>
+    </svg>
